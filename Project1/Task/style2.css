@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#site-header{
+    width: 100%;
+    height: 36px;
+}
+
+#site-header ul{
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+    height: 36px;
+    line-height: 36px;
+    background-color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+#site-header li{
+    float: left;
+    border-right: 1px, solid, #ffffff );
+}
+
+#site-header a{
+    display: block;
+    padding: 0 28px;
+    color: rgb(255, 255, 255);
+}
+
+a:hover{
+    background-color:  #52BE80  ;
+}
+
+.active a{
+    background-color: #52BE80 ;
+}
+
+#cover{
+    width: 100%;
+    height: 100vh;
+    background-image: url("./images/1659290.jpg");
+    background-size: auto;
+    text-align: left;
+    padding: 5cm;
+    font-size: 250%;
+}
+
+#aboutme{
+    width: 100%;
+    height: 600px;
+    background-color: #ffffff;
+    color: black;
+    padding: 4cm;
+    display: flex;
+}
+
+#aboutme .left img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+    display: inline;
+    float: left;
+}
+
+#aboutme .right{
+    display: inline;
+    padding-left: 10px;
+    text-align: center;
+}
+
+#hobbies{
+    width: 100%;
+    height: 400px;
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 1cm;
+
+}
+
+#hobbies ul{
+    width: 300px;
+    padding: 0px;
+    margin: 100px auto;
+    border-top: 0px;
+    border: 1px solid #ccc;
+}
+
+#hobbies li{
+    list-style: none;
+    background: #eee;
+    border-top: 1px solid #ccc;
+    padding: 10px;
+    color: black;
+}
+
+#hobbies li:hover{
+    background-color:  #1f0074;
+    color: white;
+}
+
+#Interest{
+    width: 100%;
+    height: 500px;
+    background-color: #ffffff;
+    color: black;
+    text-align: center;
+    padding: 1cm;
+}
+
+#Interest ul{
+    width: 300px;
+    padding: 0px;
+    margin: 100px auto;
+    border-top: 0px;
+    border: 1px solid #ccc;
+}
+
+#Interest li{
+    list-style: none;
+    background: #eee;
+    border-top: 1px solid #ccc;
+    padding: 10px;
+    color: black;
+}
+
+#Interest li:hover{
+    background-color:  #1f0074;
+    color: white;
+}
+
+#Personal_Summary{
+    width: 100%;
+    height: 500px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 1cm;
+}
+
+#Professional_Summary{
+    width: 100%;
+    height: 500px;
+    background-color: #000000 ;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 1cm;
+}
+
+#Professional_Summary .box{
+    margin: 0 15px 25px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    background: #fff;
+    color: black;
+    border-radius: 25px;
+}
+
+#footer{
+    width: 100%;
+    height: 50px;
+    background-color: #000000;
+    color: white;
+    text-align: center;
+}
